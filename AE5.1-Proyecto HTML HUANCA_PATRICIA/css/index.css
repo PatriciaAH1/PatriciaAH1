@@ -1,0 +1,137 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    image-rendering: pixelated;
+    width: 950px;
+    height: 650px;
+}
+
+.espacio a {
+    font-size: 22px;
+    display: grid;
+    place-items: center;
+}
+
+.letras {
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    font-family: 'Nunito', cursive;
+    font-size: 1.2em;
+    letter-spacing: 8px;
+}
+
+.espacio p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: Fuenteramdom;
+    src: url("../static/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    font-family: Fuenteramdomm;
+    src: url("../static/Montserrat-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Fuenteramdommm;
+    src: url("../static/Poppins-SemiBold.ttf");
+}
+
+h1 {
+    font-family: Fuenteramdomm;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: Fuenteramdommm;
+}
+
+body {
+    font-family: Fuenteramdom;
+}
+
+* {
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 {
+    background-color: #212529;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f8f9fa;
+}
+
+h2 {
+    background-color: #212529;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f8f9fa;
+}
+
+footer {
+    background-color: #70767c;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f8f9fa;
+}
+
+.menufinal p {
+    background-color: hwb(203 27% 69%);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #f8f9fa;
+}
+
+a:visited {
+    color: rgba(19, 40, 226, 0.795);
+}
+
+.menufinal p :hover {
+    color: rgb(252, 248, 8);
+}
+
+a:hover {
+    color: red
+}
+/* NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  */
+a:active {
+    color: red;
+}
+
+.menufinal a:active {
+    color: red;
+
+}
+
+.menufinal a {
+    color: floralwhite;
+    font-size: 18px;
+    font-family: Fuenteramdom;
+    text-align: center;
+}

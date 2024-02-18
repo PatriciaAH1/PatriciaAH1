@@ -1,0 +1,175 @@
+/* NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  */
+body {
+    font-family: Fuenteramdom;
+}
+.menu{
+    background-color: #212529;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10%;
+    position: relative;
+}
+
+h1 {
+    background-color: #212529;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-family: Fuenteramdom;
+    color: #f8f9fa;
+}
+.menu {
+    height: 90px;
+    padding: 10%;
+  }
+
+.menu h2 {
+    color: #f8f9fa;
+}
+.menu h2 span {
+    color: gold;
+}
+
+.final {
+    background-color: #212529;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+a {
+    font-size: 25px;
+    color: #f8f9fa;
+    text-decoration: none;
+    transition: none;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 20px;
+}
+a:hover{
+    font-size: 35px;
+    color: rgb(252, 248, 8);
+}
+.menu a:hover {
+    font-size: 25px;
+    color: rgb(252, 248, 8);
+  }
+
+a:active {
+    color: red;
+}
+.menu{
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+@font-face {
+    font-family: Fuenteramdom;
+    src: url("../static/Montserrat-Medium.ttf");
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    image-rendering: pixelated;
+    width: 600px;
+    height: 450px;
+}
+
+
+
+table,th,td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+}
+
+.blanco {
+    color: aliceblue;
+    background-color: rgb(53, 48, 48);
+}
+
+.genero {
+    background-color: rgb(20, 19, 19);
+    color: aliceblue;
+}
+
+.verso {
+    background-color: rgb(245, 149, 31);
+}
+
+.contenidoverso {
+    background-color: antiquewhite;
+    text-align: left;
+}
+
+.versoo {
+    background-color: rgb(149, 211, 57)
+}
+
+.celest {
+    background-color: #4747d3;
+}
+
+.celeste {
+    background-color: lightblue;
+    text-align: left;
+}
+
+.prosa {
+    background-color: hsl(43, 87%, 58%)
+}
+
+.pielconleft {
+    text-align: left;
+    background-color: blanchedalmond
+}
+
+.verdetext {
+    text-align: left;
+    background-color: lightcyan
+}
+
+.azul {
+    background-color: rgb(130, 186, 243);
+}
+.tamaño {
+    font-size: 20px;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:active {
+    color: red;
+}

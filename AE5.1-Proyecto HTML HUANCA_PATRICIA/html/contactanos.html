@@ -1,0 +1,127 @@
+<!-- NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Web de las Artes</title>
+    <link rel="stylesheet" href="/css/contactanos.css">
+</head>
+
+<body>
+    <header>
+        <h1>La Web de las Artes</h1>
+        <div class="menu">
+            <h2>SECCION: <span>Contactanos</span></h2>
+            <ul>
+                <li><a href="/">Inicio</a></li>
+                <li><a href="Musica.html">Musica</a></li>
+                <li><a href="cine.html">Cine</a></li>
+                <li><a href="Genero.html">Generos Literarios</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contactanos.html">Contactanos</a></li>
+            </ul>
+        </div>
+        <hr>
+    </header>
+
+    <main>
+        <form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
+            <fieldset>
+                <legend> Datos Personales </legend>
+                <div class="tamaño2">
+                    <p>
+                        <label for="nombre">Nombre:
+                            <input type="text" name="nombre" autocomplete="off" placeholder="Introduce tu nombre.."
+                                required pattern="[A-Za-záéíóúÁÉÍÓÚ ]+" title="Solo admite letras">
+                            <span title="Campo Obligatorio">*</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos:
+                            <input type="text" name="apellidos" autocomplete="off"
+                                placeholder="Introduce tus apellidos..." required pattern="[A-Za-záéíóúÁÉÍÓÚ ]+"
+                                title="Solo admite letras">
+                            <span title="Campo Obligatorio">*</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label for="correo">Email:
+                            <input type="email" name="correo" autocomplete="off" required
+                                placeholder="usuario@email.com">
+                            <span title="Campo Obligatorio">*</span>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Fecha de Nacimiento:
+                            <input type="date" name="Fecha" min="2024-01-31" max="2024-12-31" step="2" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>Edad:
+                            <input type="number" name="edad" min="18" max="100" required>
+                        </label>
+                    </p>
+
+                    <p>
+                        <label for="sexo">Sexo:</label>
+                        <input type="radio" name="sexo" value="H" checked />Hombre
+                        <input type="radio" name="sexo" value="M" />Mujer
+                    </p>
+                    <p>
+                        <label for="pais">Pais:</label>
+                        <select id="pais" name="pais">
+                            <option selected>-Seleccionar-</option>
+                            <option>España</option>
+                            <option>Francia</option>
+                            <option>Portugal</option>
+                            <option>Italia</option>
+                        </select>
+                    </p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend> Otros Datos </legend>
+                <div class="tamaño3">
+                    <p>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea cols="40" rows="10" spellcheck="true"
+                            placeholder="Introduce tu Mensaje..."></textarea>
+                    </p>
+                    <p>
+                        <label>Adjunte un archivo:
+                            <input type="file" name="archivo" />
+                        </label>
+                    </p>
+                </div>
+            </fieldset>
+
+            <div class="tamaño4">
+                <p>
+                    <label for="empresa"></label>
+                    <input type="checkbox" name="empresa" id="empresa" required>
+                    <label for="empresa">He leido las Condiciones</label>
+                </p>
+                <p>
+                    <input class="boton1" type="reset" value="Limpiar">
+                    <input class="boton2" type="submit" value="Enviar">
+                </p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h1>Centro de referencia</h1>
+        <iframe class="mapa"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7794485179616!2d-16.285825790830046!3d28.45606417566035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41cceee5a8035f%3A0xab9f2a74d9e68b51!2sCIFP%20C%C3%A9sar%20Manrique!5e0!3m2!1ses!2ses!4v1707921573358!5m2!1ses!2ses"
+            allowfullscreen="" loading="lazy">
+        </iframe>
+        <div class="final">
+            <a href="#">Inicio</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

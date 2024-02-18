@@ -1,0 +1,105 @@
+/* NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Fuente*/
+@font-face {
+    font-family: Fuenteramdom;
+    src: url("../static/Montserrat-Medium.ttf");
+}
+
+h1,.menu,.final {
+    background-color: #212529;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    height: 60px;
+    font-family: Fuenteramdom;
+    color: #f8f9fa;
+}
+
+.menu {
+    height: 80px;
+    padding: 0 5%;
+}
+
+.menu h2 span,
+.menu ul li,
+.menu ul li a,
+.menu li,
+.menu h2 {
+    color: #f8f9fa;
+}
+
+.menu h2 span {
+    color: gold;
+}
+/* para colocarle a menu en una linea*/
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    transition: none;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img {
+    image-rendering: pixelated;
+    width: 600px;
+    height: 400px;
+}
+
+.final a {
+    color: floralwhite;
+    font-family: Fuenteramdom;
+    text-align: center;
+}
+
+.menu :hover {    
+    color: rgb(252, 248, 8);
+}
+
+p :hover {
+    color: rgb(252, 248, 8);
+}
+
+.final p:hover {
+    color: rgb(252, 248, 8);
+}
+
+.menu :active {
+    color: red;
+}
+
+/* Enlace */
+a:active {
+    color: red;
+}

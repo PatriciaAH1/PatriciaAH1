@@ -1,0 +1,111 @@
+/* NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+     text-decoration: none;
+     list-style: none;
+ }
+
+ h1,.menu,.final {
+     background-color: #212529;
+     height: 60px;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: relative;
+     font-family: Fuenteramdom;
+     color: #f8f9fa;
+ }
+
+ h2 {
+     font-size: 35px;
+ }
+
+ .menu ul {
+     list-style: none;
+     display: flex;
+ }
+
+ .menu ul li {
+     padding: 10px 30px;
+     position: relative;
+ }
+
+ .menu ul li a {
+     color: #f8f9fa;
+     display: inline-block;
+     padding: 2px 20px;
+     font-size: 20px;
+     text-decoration: none;
+     transition: none;
+ }
+
+ .menu a:hover {
+     color: rgb(252, 248, 8);
+ }
+
+ .menu ul :active {
+     color: red;
+ }
+
+ a:visited {
+     color: rgba(19, 40, 226, 0.795);
+ }
+
+ a:active li {
+     color: red;
+ }
+
+ .final a {
+     color: floralwhite;
+     font-size: 25px;
+     font-family: Fuenteramdom;
+     text-align: center;
+ }
+
+ .final a:hover {
+     font-size: 33px;
+     color: rgb(252, 248, 8);
+ }
+
+ @font-face {
+     font-family: Fuenteramdom;
+     src: url("../static/Montserrat-Medium.ttf");
+ }
+
+ body {
+     font-family: Fuenteramdom;
+ }
+
+ .img1 {
+     width: 350px;
+     height: 250px
+ }
+
+ .img2 {
+     width: 350px;
+     height: 250px
+ }
+
+ .img3 {
+     width: 350px;
+     height: 230px
+ }
+
+ .video {
+     width: 570px;
+     height: 230px;
+ }
+
+ .video2 {
+     width: 340px;
+     height: 220px;
+ }
+
+ .video3 {
+     width: 300px;
+     height: 190px;
+ }

@@ -1,0 +1,131 @@
+/* NOMBRE:Huanca Condori Karen Patricia CURSO;1Dama A  */
+
+/*  descargada*/
+@font-face {
+  font-family: Fuenteramdom;
+  src: url("../static/Montserrat-Medium.ttf");
+}
+*{
+  margin: 0;
+  padding: 3px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+/*menu*/
+h1, .menu, .final {
+    background-color: #212529;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    font-family: Fuenteramdom;
+    color: #f8f9fa;
+}
+
+h1 {
+  height: 80px;
+  color: #f8f9fa;
+}
+.menu {
+  height: 80px;
+  padding: 0 5%;
+}
+
+.menu h2 span, .menu ul li a, .menu li, .menu h2 {
+  color: #f8f9fa;
+}
+
+.menu h2 span {
+  text-transform: uppercase;
+  color: gold;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+
+.menu ul li a {
+  display: inline-block;
+  padding: 2px 20px;
+  font-size: 23px;
+  color: #f8f9fa;
+  text-decoration: none;
+  transition: none;
+}
+
+.menu a:hover {
+  color: rgb(252, 248, 8);
+}
+.tamaño2 p :hover {
+  color: red;
+}
+/* Formulario */
+.tamaño2, .tamaño3, .tamaño4 {
+  font-size: 20px;
+}
+a{
+  color: #f8f9fa;
+}
+/* Enlaces */
+a:hover {
+  font-size: 30px;
+  color: rgb(252, 248, 8);
+}
+.menu ul :active  {
+  color: red;
+}
+a:active li {
+  color: red;
+}
+
+.mapa {
+  width: 570px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+/*  botones */
+.boton1, .boton2 {
+  background-color: ivory;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  outline: 3px solid hwb(0 2% 1%);
+  width: 70px;
+}
+
+.boton2 {
+  outline: 3px solid rgb(28, 179, 53);
+  width: 80px;
+}
+
+body {
+  font-family: Fuenteramdom;
+}
+
+
+input:invalid {
+  background-color: ivory;
+  border: none;
+  outline: 2px solid rgb(250, 17, 17);
+}
+
+legend {
+  font-size: 16px;
+  text-align:left
+}
